@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<!--
+    Name: Brent Taylor
+    04/09/2017
+    URL: http://btaylor.greenrivertech.net/IT328/dating/
+    Personal Info Page.
+-->
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <title>Personal Information</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css" type="text/css">
+         
+        <!-- bootstrap -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+         
+        <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+     
+    </head>
+     
+    <body>
+  <!--NavBar-->
+    <nav class="navbar navbar-default">
+    <a class="navbar-brand" href="http://btaylor.greenrivertech.net/IT328/dating/">My Dating Website</a>
+    <a class="navbar-brand" href="http://btaylor.greenrivertech.net/IT328/dating/admin">Admin</a>
+    </nav>
+         
+        <div class="container">
+            <div class="row">
+                <h2>Personal Information</h2>
+                <hr><!--Break line-->
+                <form action="./profile" method="post" class="form-horizontal">
+                    
+                    <!-- Personal Information -->
+                    <div class="form-group">
+                        
+						<div class="col-sm-8"> <!--Sets form columns a fixed size-->
+                        <div class="panel-body"><strong>First Name</strong></div>
+                            
+                            <input class="form-control" type="text" name="firstname" id="firstName">
+                            
+                            	 <div class="panel-body"><strong>Last Name<br/></strong></div>
+                               <input class="form-control" type="text" name="lastname" id="lastname">
+                               
+                               <div class="panel-body"><strong>Age</strong></div>
+                            
+                            <input class="form-control" type="number" name="age" id="age" min=18>
+                            
+                            	 <div class="panel-body"><strong>Gender<br/></strong></div>
+                                 <div id="buttons">
+                               <input type="radio" name="gender" value="Male">Male 
+                                <input type="radio" name="gender" value="Female">Female</div>
+                                 
+                                  <div class="panel-body"><strong>Phone Number</strong></div>
+                            
+                            <input class="form-control" type="tel" name="phone" id="phone">
+							
+							<!--Premium-->
+							<div class="panel-body"><strong>Premium<br/></strong></div>
+                            <input type="checkbox" name="premium-member" value="premium">Sign up for a premium account!
+                               
+							
+							
+                         
+                        </div>
+							<!--Creates Policy column on new line-->
+						   <div class="col-sm-3">
+                                <div class="panel panel-default">
+                                   
+                                    <div class="panel-footer"><strong>Note</strong>: All information entered is protected by our <a href="#">privacy policy</a>.
+                                    Profile information can only be viewed by others with your permission.</div>
+									</div>
+                                </div>
+                        
+                          <div class="col-xs-2 col-xs-offset-8">
+                            <div class="pull-right">
+                        <input class="form-control btn btn-primary"
+                               type="submit" value="Next" style="width: 100px; height: 50px;" >
+                          </div>
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

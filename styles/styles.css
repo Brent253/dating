@@ -1,0 +1,45 @@
+/*Brent Taylor
+  04/09/2017
+  My Dating Website CSS File*/
+
+
+
+#datingimage{
+    text-align: center;
+}
+
+#feedback{
+    font-family: italic;
+}
+
+#pic{
+   width: 460px;
+   height: 500px;
+   padding-top: 2%;
+}
+
+#contained
+{
+    border: 1px solid silver;
+    border-radius: 5px;
+     height: 80%;
+}
+
+#hear
+{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+}
+
+#policy{
+    position: absolute;
+    margin-right: 30px;
+}
+
+.checkboxes{
+    
+    width: 15%;
+}

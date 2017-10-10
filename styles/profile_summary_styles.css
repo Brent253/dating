@@ -1,0 +1,55 @@
+/*
+    Name: Marlene Leano
+    Date: April 16, 2017
+    styles for URL: mleano.greenrivertech.net/IT328/dating/styles/profile_summary_styles.css
+    This is the styles for the profile summary page of my dating website.
+*/
+
+
+/*Styles for the navigation bar*/
+nav {
+    background: #ddd;
+}
+
+nav ul li {
+    list-style: none;
+    padding-left: -1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li a {
+    color: #4d4d4d;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #0000ff;
+}
+
+
+/*Styles for the panel and its contents*/
+.panel {
+    margin: 2%;
+}
+
+#summary {
+    margin-top: 2%;
+}
+
+#button {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.img-rounded {
+    margin: 2% auto;
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+p {
+    padding-bottom: 3%;
+    text-align: center;
+}

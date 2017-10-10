@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <!--
+    Name: Brent Taylor
+    04/09/2017
+    URL: http://btaylor.greenrivertech.net/IT328/dating/
+    Interests Page.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Dating Website</title>
+        
+        <!--Bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <!--Link my styles-->
+        <link href="./styles/formstyles.css" rel="stylesheet">       
+    </head>
+    
+    <body>
+   <!--NavBar-->
+
+    <nav class="navbar navbar-default">
+    <a class="navbar-brand" href="http://btaylor.greenrivertech.net/IT328/dating/">My Dating Website</a>
+    <a class="navbar-brand" href="http://btaylor.greenrivertech.net/IT328/dating/admin">Admin</a>
+    </nav>
+        
+        <!--Form Panel-->
+        <form action="./profile_summary" method="post">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h1>Interests</h1>
+                    <hr>
+                    
+                    <!--Interests Form-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                 <b>Indoor-interests</b>
+                                <div id="indoor">
+                            <input type="checkbox" value="tv" name="indoor_interests[]"><label class="checkboxes">TV</label>
+                            <input type="checkbox" value="movies" name="indoor_interests[]"><label class="checkboxes">Movies</label>
+                            <input type="checkbox" value="cooking" name="indoor_interests[]"><label class="checkboxes">Cooking</label>
+                            <input type="checkbox" value="boardgames" name="indoor_interests[]"><label class="checkboxes">Boardgames</label>
+                            <br>
+                            <input type="checkbox" value="puzzles" name="indoor_interests[]"><label class="checkboxes">Puzzles</label>
+                            <input type="checkbox" value="reading" name="indoor_interests[]"><label class="checkboxes">Reading</label>
+                            <input type="checkbox" value="playingcards" name="indoor_interests[]"><label class="checkboxes">Playing Cards</label>
+                            <input type="checkbox" value="videogames" name="indoor_interests[]"><label class="checkboxes">Video Games</label>
+                              <br>
+                                </div>
+
+                                <br>
+                                <b>Outdoor-interests</b>
+                                <div id="outdoor">
+                            <input type="checkbox" value="hiking" name="outdoor_interests[]"><label class="checkboxes">Hiking</label>
+                            <input type="checkbox" value="biking" name="outdoor_interests[]"><label class="checkboxes">Biking</label>
+                            <input type="checkbox" value="swimming" name="outdoor_interests[]"><label class="checkboxes">Swimming</label>
+                            <input type="checkbox" value="collecting" name="outdoor_interests[]"><label class="checkboxes">Collecting</label>
+                              <br>
+                            <input type="checkbox" value="walking" name="outdoor_interests[]"><label class="checkboxes">Walking</label>
+                            <input type="checkbox" value="climbing" name="outdoor_interests[]"><label class="checkboxes">Climbing</label>
+                                </div>
+                                
+                                <!--Next button-->
+                                <div id="button">
+                                        <button type="submit" class="btn btn-primary">Next</button>
+                                </div> 
+                                
+                            </div> 
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </form>       
+    </body>
+</html>
